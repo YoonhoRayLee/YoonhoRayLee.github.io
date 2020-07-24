@@ -3,6 +3,8 @@
 # Name of website
 title: Hubtwork's lab
 
+locale : "ko-KR"
+
 # Short description of your site
 description: A virtual proof that I'm awesome
 
@@ -14,7 +16,7 @@ author: Hubtwork
 navbar-links:
   About Me: "aboutme"
   Algorithm:
-    - 프로그래머스: "https://hubtwork.github.io/programmers"
+    - 프로그래머스: "programmers"
     - 알고리즘 정리: "#"
   Development:
     - node js: "#"
