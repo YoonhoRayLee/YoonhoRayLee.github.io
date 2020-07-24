@@ -1,0 +1,23 @@
+---
+layout: page
+title: '프로그래머스'
+---
+
+{% assign date_format = site.date_format | default: "%Y %B %-d" %}
+
+<div id="full-tags-list">
+    <h2 id="{{- 프로그래머스 -}}" class="linked-section">
+        <i class="fas fa-tag" aria-hidden="true"></i>
+        &nbsp;{{- 프로그래머스 -}}&nbsp;({{site.tags[프로그래머스].size}})
+    </h2>
+    <div class="post-list">
+        {%- for post in site.tags[프로그래머스] -%}
+            <div class="tag-entry">
+                <a href="{{ post.url | relative_url }}">{{- post.title -}}</a>
+                <div class="entry-date">
+                    <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: date_format -}}</time>
+                </div>
+            </div>
+        {%- endfor -%}
+    </div>
+</div>

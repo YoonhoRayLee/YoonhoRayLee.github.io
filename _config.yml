@@ -14,7 +14,7 @@ author: Hubtwork
 navbar-links:
   About Me: "aboutme"
   Algorithm:
-    - 프로그래머스: "#"
+    - 프로그래머스: "https://hubtwork.github.io/programmers"
     - 알고리즘 정리: "#"
   Development:
     - node js: "#"
