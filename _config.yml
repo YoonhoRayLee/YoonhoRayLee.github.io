@@ -12,7 +12,7 @@ author: Hubtwork
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "/_pages/aboutme"
+  About Me: "aboutme"
   Algorithm:
     - 프로그래머스: "#"
     - 알고리즘 정리: "#"
