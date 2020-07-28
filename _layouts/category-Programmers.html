@@ -8,8 +8,7 @@ layout: default
 {%- assign programmers_tag = "Lv1, Lv2, Lv3, Lv4" | split: ',' -%}
 
 {%- for tag in programmers_tag -%}
-    <span><i class="fas fa-book" aria-hidden="true"></i>&nbsp;</span>
-    <h3>{{- tag -}}&nbsp;&nbsp;{{site.tags[tag].size}} Solved!</h3>
+    <h3><i class="fas fa-book" aria-hidden="true"></i>&nbsp; {{- tag -}}&nbsp;&nbsp;{{ {%- if site.tags[tag].size > 0 -%} site.tags[tag].size {%- else -%} 0 {%- endif -%} }} Solved!</h3>
     
     <div class="posts-list">
         {% for post in site.tags[tag] %}
