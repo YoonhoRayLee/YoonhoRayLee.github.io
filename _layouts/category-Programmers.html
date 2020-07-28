@@ -12,10 +12,11 @@ layout: default
     
     <div class="posts-list">
         {% for post in site.tags[tag] %}
-        <a href="{{ post.url | absolute_url }}">
         <article class="post-preview">
-            <h2 class="post-title">{{ post.title }}</h2>
-      
+
+            <a href="{{ post.url | absolute_url }}">
+                <h2 class="post-title">{{ post.title }}</h2>
+            </a>
             {% if post.subtitle %}
               <h3 class="post-subtitle">
               {{ post.subtitle }}
@@ -72,11 +73,11 @@ layout: default
           {% endif %}
           
          </article>
-        </a>
         {% endfor %}
-      </div>
+    </div>
       
-      {% if paginator.total_pages > 1 %}
+    
+    {% if paginator.total_pages > 1 %}
       <ul class="pagination main-pager">
         {% if paginator.previous_page %}
         <li class="page-item previous">
