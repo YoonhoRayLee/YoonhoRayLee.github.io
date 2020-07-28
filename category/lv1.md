@@ -1,9 +1,9 @@
 ---
 layout: turret
-title: Only Porsche
+title: 프로그래머스
 permalink: category/test
 pagination: 
   enabled: true
-  category: 프로그래머스
+  tag: Lv1
   permalink: /:num/
 ---
