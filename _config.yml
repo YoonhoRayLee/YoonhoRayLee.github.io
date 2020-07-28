@@ -19,7 +19,7 @@ navbar-links:
     - 프로그래머스: "/category/programmers"
     - 알고리즘 정리: "/category/algorithms"
   Development:
-    - node js: "/category/test"
+    - node js: "#"
     - Python: "#"
 
 # --- Logo --- #
@@ -176,6 +176,7 @@ timezone: "Asia/Seoul"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
+paginate: 5
 
 kramdown:
   input: GFM
@@ -212,21 +213,6 @@ exclude:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-paginate-v2
-
-############################################################
-# Site configuration for the Jekyll 3 Pagination Gem
-# The values here represent the defaults if nothing is set
-# Pagination Settings
-pagination:
-  enabled: true
-  per_page: 2
-  permalink: '/page/:num/'
-  title: ' - page :num'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
-############################################################ 
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
