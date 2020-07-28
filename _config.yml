@@ -210,7 +210,7 @@ exclude:
   - docs/
 
 plugins:
-  - jekyll-paginate
+#  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-paginate-v2
 
