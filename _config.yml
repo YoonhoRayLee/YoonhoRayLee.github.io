@@ -17,7 +17,7 @@ navbar-links:
   About Me: "aboutme"
   Algorithm:
     - 프로그래머스: "/category/programmers"
-    - 알고리즘 정리: "#"
+    - 알고리즘 정리: "/category/algorithms"
   Development:
     - node js: "#"
     - Python: "#"
