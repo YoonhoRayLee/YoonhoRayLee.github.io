@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% assign category = page.category | default: page.title %}
-<h2 style="text-align: center;"> Total {{ site.categories[category].size }} Problem Solved In {{ category }} </h2>
+<h2 style="text-align: center;"> {{ category }} Total {{ site.categories[category].size }} Solved </h2>
 
 {%- assign programmers_tag = "Lv1, Lv2, Lv3, Lv4" | split: ',' -%}
 
