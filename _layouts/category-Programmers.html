@@ -5,7 +5,7 @@ layout: default
 {% assign category = page.category | default: page.title %}
 <h2> Total {{ site.categories[category].size }} Posts In {{ category }} </h2>
 
-{%- assign programmers_tag = ['Lv1', 'Lv2', 'Lv3', 'Lv4'] -%}
+{%- assign programmers_tag = "Lv1, Lv2, Lv3, Lv4" | split: ',' -%}
 {%- for tag in programmers_tag -%}
 <a href="#{{- tag -}}" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})</a>
 {%- endfor -%}
