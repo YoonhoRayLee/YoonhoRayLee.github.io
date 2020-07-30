@@ -4,10 +4,10 @@ title: About me
 subtitle: Why you'd want to go on a date with me
 ---
 
-### Heo Jae
-Hubtwork
+### Yoonho Lee
+Hot-work
 
-- Graduate Dongguk Univ, Seoul at 2020. 08.
+- (Going to be)Graduated Dongguk Univ, Seoul at 2021. 02.
 
 What else do you need?
 
