@@ -5,7 +5,7 @@ subtitle: Why you'd want to go on a date with me
 ---
 
 ### Yoonho Lee
-Hot-work
+Hot-work's Algorithm World
 
 - (Going to be)Graduated Dongguk Univ, Seoul at 2021. 02.
 
