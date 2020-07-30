@@ -44,7 +44,7 @@ round-avatar: true
 social-network-links:
   email: "lyho0307@naver.com"
 #  facebook: deanattali
-  github: hotwork
+  github: Ho-twork
 #  twitter: daattali
   rss: true
 #  reddit: yourname
@@ -127,7 +127,7 @@ gtag: "UA-173450531-1"
 # --- Comments --- #
 
 # To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
-disqus: "hubtwork-github-io"
+disqus: "ho-twork-github-io"
 
 # To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
 #fb_comment_id: ""
