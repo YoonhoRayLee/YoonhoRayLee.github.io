@@ -5,7 +5,7 @@ subtitle: Why you'd want to go on a date with me
 ---
 
 ### Yoonho Lee
-호의 개발일지
+유노의 개발일지
 - Graduated Gwangdeok High School, Gwangju at 2015. 02.
 
 - (Going to be)Graduated Dongguk Univ, Seoul at 2021. 02.
