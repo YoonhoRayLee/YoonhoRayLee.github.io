@@ -6,7 +6,7 @@ title: Hot-work
 locale : "ko-KR"
 
 # Short description of your site
-description: I've got to the best in the Programmer Scene
+description: 호의 개발일지
 
 # Your name to show in the footer
 author: YoonhoRayLee
@@ -19,8 +19,8 @@ navbar-links:
     - 프로그래머스: "/category/programmers"
     - 알고리즘 정리: "/category/algorithms"
   Development:
-    - node js: "#"
-    - Python: "#"
+    - node js: "/category/node_js"
+    - Python: "/category/python"
 
 # --- Logo --- #
 
